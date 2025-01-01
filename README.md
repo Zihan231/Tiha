@@ -1,6 +1,6 @@
 # Tiha
 
-# Check Even or Odd Program in C
+# 1. Check Even or Odd Program in C
 ```c
 #include <stdio.h>
 
