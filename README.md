@@ -79,4 +79,24 @@ int main() {
     return 0;
 }
 ```
+# 10. Sum of the Squares of Even Numbers in a Series
+```c
+#include <stdio.h>
 
+int main() {
+    int n, sum = 0;
+
+    printf("Enter the range (n): ");
+    scanf("%d", &n);
+
+    for (int i = 2; i <= n; i += 2) {
+        sum += i * i;
+    }
+
+    printf("The sum of the squares of the even series up to %d is: %d\n", n, sum);
+    printf("----------------\n");
+    printf("Coded by Tihamun\n");
+
+    return 0;
+}
+```
