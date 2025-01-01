@@ -59,4 +59,24 @@ int main() {
     return 0;
 }
 ```
+# 9. Sum of Odd Series
+```c
+#include <stdio.h>
+
+int main() {
+    int n, sum = 0, i = 1;
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    while (i <= n) {
+        sum += i;
+        i += 2;
+    }
+
+    printf("Sum of the odd series: %d\n", sum);
+    printf("----------------\n");
+    printf("Coded by Tihamun\n");
+    return 0;
+}
+```
 
