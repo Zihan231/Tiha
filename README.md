@@ -1,9 +1,6 @@
 # Tiha
 
 # Check Even or Odd Program in C
-
-This program checks whether a given integer is even or odd.
-
 ```c
 #include <stdio.h>
 
